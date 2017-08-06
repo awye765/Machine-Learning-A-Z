@@ -46,6 +46,36 @@ y_pred = regressor.predict(X_test)
 # for all OBSERVATIONS (i.e. years experience) of our test set.  Created by
 # passing into the regressor's PREDICT method the X_test data.
 
+# Visualising the TRAINING set results
+plt.scatter(X_train, y_train, color = 'red')
+# Plots scatter graph with the X_train values for the X axis values and 
+# y_train values for the Y axis values.
+
+plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+# Plots regression line using X_train set, i.e. predicts out the corresponding
+# Y axis values using linear regression function applied to X axis values from
+# the X_train set.
+
+plt.title('Salary vs Experience (Training set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
+
+# Visualising the TEST set results
+plt.scatter(X_test, y_test, color = 'red')
+# Plots scatter graph with the X_test values for the X axis values and 
+# y_test values for the Y axis values.
+
+plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+# Plots regression line using X_train set, i.e. predicts out the corresponding
+# Y axis values using linear regression function applied to X axis values from
+# the X_train set.
+
+plt.title('Salary vs Experience (Training set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
+
 # Feature Scaling
 """from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
