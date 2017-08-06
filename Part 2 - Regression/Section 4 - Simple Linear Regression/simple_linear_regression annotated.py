@@ -40,6 +40,12 @@ regressor.fit(X_train, y_train)
 # Fits the regressor instance to training data, X_train & y_train.  Doing so
 # makes it learn how to predict y values based on the X values.
 
+# Predicting the Test set results
+y_pred = regressor.predict(X_test)
+# Vector of predictions of DEPENDENT variable, i.e. the predicted salaries
+# for all OBSERVATIONS (i.e. years experience) of our test set.  Created by
+# passing into the regressor's PREDICT method the X_test data.
+
 # Feature Scaling
 """from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
