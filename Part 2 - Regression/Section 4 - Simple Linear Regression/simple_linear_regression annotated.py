@@ -84,6 +84,18 @@ plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
 
+# ===========================================================================
+# BASIC EXPLAINER RE LINEAR REGRESSION THEORY
+# ===========================================================================
+
+# http://onlinestatbook.com/2/regression/intro.html 
+
+# ===========================================================================
+# BASIC EXPLAINERS RE MATHS & STATS
+# ===========================================================================
+
+# http://www.mathsisfun.com/index.htm
+
 # Feature Scaling
 """from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
