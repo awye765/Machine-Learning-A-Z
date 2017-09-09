@@ -10,12 +10,14 @@ dataset = pd.read_csv('Salary_Data.csv')
 X = dataset.iloc[:, :-1].values
 # [:,] means we take all rows.  [:-1] means we take all columns except for 
 # last column, i.e. except the "Salary" column.  
-# X is the FEATURES matrix of INDEPENDENT variables.
+# X is the FEATURES matrix of INDEPENDENT variables, i.e. YEARS EXPERIENCE
 
 y = dataset.iloc[:, 1].values
 # [:, 1] means we take all rows from the dataset and only the last column, i.e.
 # including the "Salary" column.  
-# y is a VECTOR of the DEPENDENT variables.
+# y is a VECTOR of the DEPENDENT variables, i.e. SALARY.  By "vector", we mean
+# a matrix having only ONE column or row.  In this case y is a one row matrix
+# of the salary variables.
 
 # Splitting the dataset into the Training set and Test set
 from sklearn.cross_validation import train_test_split
@@ -42,11 +44,14 @@ regressor.fit(X_train, y_train)
 
 # Predicting the Test set results
 y_pred = regressor.predict(X_test)
-# Vector of predictions of DEPENDENT variable, i.e. the predicted salaries
+# Vector of predictions of DEPENDENT variable, i.e. the predicted SALARIES
 # for all OBSERVATIONS (i.e. years experience) of our test set.  Created by
 # passing into the regressor's PREDICT method the X_test data.
 
-# Visualising the TRAINING set results
+# ===========================================================================
+# VISUALISING the TRAINING set results
+# ===========================================================================
+
 plt.scatter(X_train, y_train, color = 'red')
 # Plots scatter graph with the X_train values for the X axis values and 
 # y_train values for the Y axis values.
@@ -61,7 +66,10 @@ plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
 
-# Visualising the TEST set results
+# ===========================================================================
+# VISUALISING the TEST set results
+# ===========================================================================
+
 plt.scatter(X_test, y_test, color = 'red')
 # Plots scatter graph with the X_test values for the X axis values and 
 # y_test values for the Y axis values.
@@ -71,7 +79,7 @@ plt.plot(X_train, regressor.predict(X_train), color = 'blue')
 # Y axis values using linear regression function applied to X axis values from
 # the X_train set.
 
-plt.title('Salary vs Experience (Training set)')
+plt.title('Salary vs Experience (Test set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
