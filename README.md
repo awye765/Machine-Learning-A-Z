@@ -6,7 +6,7 @@ Collected notes from around the web to supplement this course.
 
 ### Dave Fuomo
 
-##### Intro to Machine Learning
+#### Intro to Machine Learning
 [Part 1](https://medium.com/simple-ai/intro-to-machine-learning-iml-1-c9ea966976b6) |
 [Part 2](https://medium.com/simple-ai/decision-tree-learning-intro-to-machine-learning-2-8592720a739e) |
 [Part 3](https://medium.com/simple-ai/pandas-library-in-a-nutshell-intro-to-machine-learning-3-acbd39ec5c9c) |
@@ -15,7 +15,7 @@ Collected notes from around the web to supplement this course.
 
 ##### A Gentle Introduction to Neural Networks
 
-[Part 1](https://medium.com/towards-data-science/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc) | [Part 2](https://medium.com/towards-data-science/build-neural-network-from-scratch-part-2-673ec7cdd89f)
+[Part 1](https://medium.com/towards-data-science/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc) | [Part 2](https://medium.com/towards-data-science/build-neural-network-from-scratch-part-2-673ec7cdd89f) |
 
 ### Machine Learning is Fun
 
@@ -25,7 +25,7 @@ Collected notes from around the web to supplement this course.
 
 ### Dr. Jason Brownlee
 
-##### A Tour of Machine Learning Algorithms
+#### A Tour of Machine Learning Algorithms
 
 Quick overview. [Click here](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
 
