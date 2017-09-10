@@ -4,6 +4,10 @@ Collected notes from around the web to supplement this course.
 
 ## Useful Intros / Overviews to ML
 
+### Collection of best ML tutorials / guides
+
+[Click here](https://unsupervisedmethods.com/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78)
+
 ### Dave Fuomo
 
 #### Intro to Machine Learning
@@ -28,6 +32,10 @@ Collected notes from around the web to supplement this course.
 #### A Tour of Machine Learning Algorithms
 
 Quick overview. [Click here](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
+
+### Deep Learning
+
+[Click here](http://lineardata.net/the-no-bullsht-guide-to-deep-learning/)
 
 ## Maths & Stats
 
