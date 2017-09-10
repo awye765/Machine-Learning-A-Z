@@ -90,6 +90,8 @@ plt.show()
 
 # http://onlinestatbook.com/2/regression/intro.html 
 
+# https://medium.com/simple-ai/linear-regression-intro-to-machine-learning-6-6e320dbdaf06
+
 # ===========================================================================
 # BASIC EXPLAINERS RE MATHS & STATS
 # ===========================================================================

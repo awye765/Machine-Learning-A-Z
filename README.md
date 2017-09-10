@@ -44,3 +44,9 @@ Quick overview. [Click here](https://machinelearningmastery.com/a-tour-of-machin
 
 ### Linear Regression
 [Click here](http://onlinestatbook.com/2/regression/intro.html).
+
+## Encoding
+
+### One Hot Encoding
+
+Concise explanation [here](https://www.quora.com/What-is-one-hot-encoding-and-when-is-it-used-in-data-science)

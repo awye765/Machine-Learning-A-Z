@@ -14,6 +14,23 @@ y = dataset.iloc[:, 3].values
 from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
+# =============================================================================
+# Multiple Linear Regression
+# =============================================================================
+
+# Multiple linear regression is where there are MULTIPLE INDEPENDENT X 
+# variables to be analysed to understand the DEPENDENT variable Y, e.g.
+# y = b0 + b1*x1 + b2*x2 + b3*x3 + b4*x4
+
+# =============================================================================
+# Dummy Variables
+# =============================================================================
+
+# A variable that takes the value of either 0 or 1 to indicate the presence or
+# absence of some categorical effect, e.g. smoker / non-smoker.  In essence
+# dummy variables are proxies or numeric stand-ins for QUALITATIVE facts in
+# a regression model.
+
 # Feature Scaling
 """from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
